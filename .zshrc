@@ -1,4 +1,4 @@
-export ZSH="/Users/a_/.oh-my-zsh"
+export ZSH="/Users/az/.oh-my-zsh"
 
 ZSH_THEME="daveverwer"
 
