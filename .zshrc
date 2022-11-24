@@ -24,7 +24,7 @@ ZSH_THEME="daveverwer"
 # DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -91,10 +91,6 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-SPACESHIP_PROMPT_ADD_NEWLINE="false" 
-SPACESHIP_PROMPT_SEPARATE_LINE="false" 
-SPACESHIP_CHAR_SYMBOL="∴ "
- 
 #export PATH="$HOME/.jenv/bin:$PATH"
 #eval "$(jenv init -)"
 #export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
@@ -105,30 +101,18 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
  
-alias dl='/Users/a_/downloads'
-alias dt='/Users/a_/desktop'
+alias dl='/Users/az/downloads'
+alias dt='/Users/az/desktop'
 alias rf='rm -rf'
-
-alias v='nvim'
-alias f='nvim $(fzf)'
-
-#alias l='exa -l'
-#alias ls='exa -a'
- 
-alias vcfg='nvim ~/.config/nvim/init.vim'
-alias kcfg='nvim ~/.config/kitty/kitty.conf'
-alias zshcfg='nvim ~/.zshrc'
 
 alias rmcontainers='docker rm -vf $(docker ps -aq)'
 alias rmimages='docker rmi -f $(docker images -aq)'
 
 alias torrent='webtorrent'
-alias n='nnn -a -d'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH=$PATH:/Users/a_/.spicetify
 clear
 
